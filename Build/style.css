@@ -1,0 +1,212 @@
+:root {
+    --light: #82b74b;
+    --dark: #3e4444;
+    --third: #405d27;
+    --fourth: #c1946a;
+}
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--fourth);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--light);
+    padding-bottom: 20px;
+
+    
+}
+
+header h1 {
+    color: var(--light);
+    background-color: var(--dark);
+    margin: 0;
+    padding-right: 150px;
+    padding-left: 20px;
+
+}
+
+header nav a:hover {
+    background-size: 100% 100%;
+    color: var(--light);
+    
+}
+
+header nav a {
+    font-size: larger;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: var(--dark);
+    background-image: linear-gradient(var(--dark) 0%, var(--dark) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position:top;
+    transition: all 0.5s;
+
+}
+
+.welcome {
+    color: var(--dark);
+    background-image: url("./img/wallpaperflare.com_wallpaper.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
+    
+}
+
+.welcome h1 {
+    background-color: var(--dark);
+    color: var(--light);
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.about h2 {
+    text-align: right;
+    margin-right: 30px;
+    border-right: 2px solid var(--third);
+    padding: 20px;
+}
+
+.about {
+ display: flex;
+ flex-direction: row;
+ margin-top: 50px;
+ align-items: center;
+ margin-right: 100px;
+
+}
+
+.work h2 {
+    text-align: center;
+    margin-right: 30px;
+    padding: 20px;
+    color: var(--third);
+
+}
+
+.work {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+h3 {
+    color: var(--light);
+    background-color: var(--dark);
+    background-size: 0px;
+    text-align: center;
+    
+}
+
+span {
+    color: var(--third);
+
+}
+
+.align {
+    display: flex;
+    background-size:50%;
+    background-repeat: no-repeat;
+    border: #3e4444 solid;
+
+}
+
+
+
+
+.align:hover {
+    background-color: antiquewhite;
+    cursor: grab;
+    border: #82b74b solid 5px;
+}
+
+.VG {
+    background-image: url("./img/vg.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.pwgen {
+    background-image: url("./img/pwgen.png");
+    background-size: contain;
+
+}
+
+.Puzzle {
+    background-image: url("./img/puzzle-654957__340.jpg");
+    background-size: contain;
+}
+
+.VS {
+    background-image: url("./img/visual-studio-code-logo.png");
+    background-size: contain;
+}
+
+.Calculator {
+    background-image: url("./img/calc.png");
+    background-size: contain;
+}
+
+address {
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+footer h2 {
+    margin: 20px;
+    text-align: center;
+    color: var(--third);
+}
+address a {
+    font-size: larger;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: var(--dark);
+    background-image: linear-gradient(var(--dark) 0%, var(--dark) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position:top;
+    transition: all 0.5s;
+
+}
+address a:hover {
+    background-size: 100% 100%;
+    color: var(--light);
+    
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      width: 75%;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    body {
+      width: 50%;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  
