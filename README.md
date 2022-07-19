@@ -11,7 +11,7 @@ This project was aimed to create a website where future employers could view you
 
 ## Image of finished product
 
-![Screenshot of Portfolio](./Build/img/final.png)
+![Screenshot of Portfolio](./img/final.png)
 
 
 ## Link to Application
