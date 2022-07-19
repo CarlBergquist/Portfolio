@@ -16,4 +16,4 @@ This project was aimed to create a website where future employers could view you
 
 ## Link to Application
 
-[Herseon Refactored Website](https://carlbergquist.github.io/code-refactor/)
+[Carl Bergquist Portfolio link](https://carlbergquist.github.io/Portfolio/)
